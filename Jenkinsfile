@@ -1,6 +1,6 @@
 node {
    stage('Code Checkout') {
-    sh 'echo code is checked out'
+    git 'https://github.com/jsreevidya/chalo.git'
    }
    stage('Build') {
     sh 'echo Build is checked out'
